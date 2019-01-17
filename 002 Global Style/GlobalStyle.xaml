@@ -1,0 +1,21 @@
+﻿<ResourceDictionary  x:Class="_002_Global_Style.GlobalStyle"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_002_Global_Style"
+             mc:Ignorable="d" >
+    <!-- 确定按钮 -->
+    <Style x:Key="alert_style_sure_btn" TargetType="Label">
+        <Setter Property="Width" Value="120"></Setter>
+        <Setter Property="Height" Value="40"></Setter>
+        <Setter Property="Padding" Value="0"></Setter>
+        <Setter Property="Margin" Value="0,20,0,0"></Setter>
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="Cursor" Value="Hand"></Setter>
+        <Setter Property="Background" Value="#FFEC8E72"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+    </Style>
+</ResourceDictionary>
