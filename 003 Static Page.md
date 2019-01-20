@@ -1,6 +1,7 @@
 样式设计思路：容器均使用内联样式，元素均使用静态样式，对于重复或者复杂的元素使用ControlTemplate来实现复用和简化代码
 # 一、Icon
 在前端样式实现方案中经常使用到图标字体，在WPF中也可以使用，不过在WPF中图标字体的承载对象是Canvas控件，下面主要介绍如何快捷的生成WPF中可以使用的图标字体  
+
 1、访问图标字体网站：https://icomoon.io/app/#/select  
 2、选择需要的图标，然后选择Generate SVG & More按钮  
 3、点击Preferences按钮，然后选择性修改图标尺寸，同时选择生成XAML格式，最后点击Download进行下载  
