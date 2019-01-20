@@ -38,7 +38,7 @@
     <StackPanel x:Name="host" Margin="0,0,0,20"></StackPanel>
 </ScrollViewer>
 ```
-4、结果预览
+### 4、结果预览
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/002.png "Content区域")
 # 三、列表区域
 ### 1、容器布局
@@ -62,5 +62,5 @@
 </Canvas>
 <Rectangle Grid.Column="2" Visibility="Collapsed" Style="{StaticResource content_style_rect_check}"></Rectangle>
 ```
-3、结果预览
+### 3、结果预览
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/003.png "列表区域")
