@@ -1,4 +1,5 @@
-# 一、说明按钮
+# 全局事件
+## 一、说明按钮
 1、新建AlertUI文件夹，同时新建一个WPF控件，命名为ExplainAlertUI.xaml  
 2、在GlobalStyle.xaml中新增相关样式
 ```
@@ -83,7 +84,7 @@ private void showExplainAlertUI(object sender, MouseButtonEventArgs e)
 ```
 8、打包预览
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/001.png "说明弹框")
-# 二、新增按钮
+## 二、新增按钮
 1、在AlertUI文件夹中新建一个WPF控件，命名为HostAlertUI.xaml  
 2、在GlobalStyle.xaml中新增相关样式
 ```
@@ -251,7 +252,7 @@ private void addHost(object sender, MouseButtonEventArgs e)
 9、打包预览
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/002.png "新增弹框")
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/003.png "新增结果")
-# 三、全禁按钮
+## 三、全禁按钮
 1、Main类增加公有静态方法disabledAllHostFromData
 ```
 //禁止所有Host规则
