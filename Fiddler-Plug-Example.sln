@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002 Global Style", "002 Glo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 Static Page", "003 Static Page\003 Static Page.csproj", "{EEB827FA-464B-4151-80CD-CC8574F7FD1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 Data Model", "004 Data Model\004 Data Model.csproj", "{8058CCB5-E232-4E01-95B5-947BB714A9A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EEB827FA-464B-4151-80CD-CC8574F7FD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEB827FA-464B-4151-80CD-CC8574F7FD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEB827FA-464B-4151-80CD-CC8574F7FD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8058CCB5-E232-4E01-95B5-947BB714A9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8058CCB5-E232-4E01-95B5-947BB714A9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8058CCB5-E232-4E01-95B5-947BB714A9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8058CCB5-E232-4E01-95B5-947BB714A9A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
