@@ -1,5 +1,6 @@
+# 数据层
 在WPF中可以使用数据绑定来实现数据驱动UI的能力，因此我们使用HostModel类来实现数据到UI的映射，同时继承INotifyPropertyChanged来实现当数据变化UI自动更新的功能，最后将数据JSON化以后进行本地存储
-# 一、Model层
+## 一、Model层
 1、新建HostModel类，修改为public类，同时继承INotifyPropertyChanged，并且引用System.ComponentModel，然后定义PropertyChanged，并实现NotifyPropertyChanged函数
 ```
 public event PropertyChangedEventHandler PropertyChanged;
@@ -41,7 +42,7 @@ public HostModel(int index, bool enable, string ip, string port, string url)
     _url = url;
 }
 ```
-# 二、数据绑定
+## 二、数据绑定
 找到GlobalStyle.xaml中的content_host模板，给其中的IP和URL的Tag、Content属性设置数据绑定，同样也给选中框的Tag、Visibility属性设置数据绑定
 ```
 <Label Grid.Column="0" Tag="{Binding Path=Index}" Content="{Binding Path=IpAndPort}" Template="{StaticResource content_text}"></Label>
@@ -52,7 +53,7 @@ public HostModel(int index, bool enable, string ip, string port, string url)
 </Canvas>
 <Rectangle Grid.Column="2" Tag="{Binding Path=Index}" Visibility="{Binding Path=CheckShow}" Style="{StaticResource content_style_rect_check}"></Rectangle>
 ```
-# 三、初始化
+## 三、初始化
 1、在Main类中新增静态属性mainData，并在OnLoad方法的第一行添加初始化代码
 ```
 //配置数据
@@ -92,7 +93,7 @@ addHostRule("127.0.0.1", "3366", "www.example.com");
 ```
 5、结果预览
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/004%20Data%20Model/001.png "数据绑定")
-# 四、本地存储
+## 四、本地存储
 1、新建Tools文件夹，然后在Tools文件夹中新建DataTool类  
 2、本地存储需要写权限，因此我们选择文档文件夹，在DataTool类中定义静态属性path，并使用Environment获取文档文件夹的路径
 ```

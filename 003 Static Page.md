@@ -1,5 +1,6 @@
+# 静态页面
 样式设计思路：容器均使用内联样式，元素均使用静态样式，对于重复或者复杂的元素使用ControlTemplate来实现复用和简化代码
-# 一、Icon
+## 一、Icon
 在前端样式实现方案中经常使用到图标字体，在WPF中也可以使用，不过在WPF中图标字体的承载对象是Canvas控件，下面主要介绍如何快捷的生成WPF中可以使用的图标字体  
 
 1、访问图标字体网站：https://icomoon.io/app/#/select  
@@ -7,7 +8,7 @@
 3、点击Preferences按钮，然后选择性修改图标尺寸，同时选择生成XAML格式，最后点击Download进行下载  
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/001.png "配置面板")
 4、将zip压缩包进行解压，打开XAML文件夹，编辑对应icon的wxml文件，拷贝其中的整个Canvas对象代码，其中修改Path的Fill可以修改图标颜色
-# 二、布局
+## 二、布局
 最外层使用Grid面板，来实现Top - Content布局；其中Content层再内嵌ScrollViewer控件来实现滚动界面
 ### 1、Grid面板
 指定全局唯一标识Name为main，指定背景颜色为FFF0F3F6，最后再声明Top区域的高度为auto，Content区域的高度为100*
@@ -40,7 +41,7 @@
 ```
 ### 4、结果预览
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/002.png "Content区域")
-# 三、列表区域
+## 三、列表区域
 ### 1、容器布局
 列表内容主要包含IP、Url和选中框，因此分为3列，其中选中框宽度固定为40，IP和Url列分别占剩余的30%和70%宽度
 ```
