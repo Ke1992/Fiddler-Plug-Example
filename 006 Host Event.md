@@ -106,7 +106,7 @@ private void modifyRule(object sender, MouseButtonEventArgs e)
 1、项目右键选择属性，切换到资源Tab，点击创建资源文件，创建完成以后，切换为图像资源，然后点击添加资源，选择添加现有文件，导入modify、delete、up、down四个Icon
 ![blockchain](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/images/006%20Host%20Event/004.png "添加资源")
 2、选择四个新增的Icon图片，修改复制到输出目录属性为始终复制，修改生成操作属性为Resource
-![blockchain](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/images/006%20Host%20Event/005.png "修改属性")
+![blockchain](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/images/006%20Host%20Event/005.png "修改属性")  
 3、在GlobalStyle中新增menu_rule定义
 ```
 <!-- Rule菜单 -->
