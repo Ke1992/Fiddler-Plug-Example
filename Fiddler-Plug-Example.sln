@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 Data Model", "004 Data 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005 Global Event", "005 Global Event\005 Global Event.csproj", "{AA5D6C35-5EE4-413E-926C-163E87375B7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006 Host Event", "006 Host Event\006 Host Event.csproj", "{0D16BBD1-D098-4CDD-B49C-6B1E639F9B0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AA5D6C35-5EE4-413E-926C-163E87375B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5D6C35-5EE4-413E-926C-163E87375B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA5D6C35-5EE4-413E-926C-163E87375B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D16BBD1-D098-4CDD-B49C-6B1E639F9B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D16BBD1-D098-4CDD-B49C-6B1E639F9B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D16BBD1-D098-4CDD-B49C-6B1E639F9B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D16BBD1-D098-4CDD-B49C-6B1E639F9B0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
