@@ -5,4 +5,5 @@
 * [003 静态页面](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/003%20Static%20Page.md)  
 * [004 数据层](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/004%20Data%20Model.md)  
 * [005 全局事件](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/005%20Global%20Event.md)  
+* [006 HOST事件](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/006%20Host%20Event.md)  
 ### 其他
