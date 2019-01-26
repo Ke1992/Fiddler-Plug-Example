@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="_007_Host_Mapping.Container"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_007_Host_Mapping"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+
+    <!--#region 样式、模板资源 -->
+    <UserControl.Resources>
+        <ResourceDictionary Source="GlobalStyle.xaml"></ResourceDictionary>
+    </UserControl.Resources>
+    <!--#endregion-->
+
+    <Grid x:Name="main" Background="#FFF0F3F6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="100*" />
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0" Margin="30,0">
+            <Label Style="{StaticResource top_style_title}">HOST 映射</Label>
+            <Label MouseLeftButtonDown="showExplainAlertUI" Template="{StaticResource top_guide}" HorizontalAlignment="Left"></Label>
+            <WrapPanel HorizontalAlignment="Right" VerticalAlignment="Center">
+                <Label MouseLeftButtonDown="addHost" Style="{StaticResource top_style_operation}">新增</Label>
+                <Label MouseLeftButtonDown="disabledAllItem" Style="{StaticResource top_style_operation_disable}">全禁</Label>
+            </WrapPanel>
+        </DockPanel>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="30,0">
+            <StackPanel x:Name="host" Margin="0,0,0,20"></StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
