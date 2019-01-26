@@ -117,7 +117,7 @@
             <Label Grid.Column="0" Tag="{Binding Path=Index}" MouseDoubleClick="modifyRule" Content="{Binding Path=IpAndPort}" ContextMenu="{StaticResource menu_rule}" Template="{StaticResource content_text}"></Label>
             <Label Grid.Column="1" Tag="{Binding Path=Index}" MouseDoubleClick="modifyRule" Content="{Binding Path=TipsAndUrl}" ContextMenu="{StaticResource menu_rule}" Template="{StaticResource content_text}"></Label>
 
-            <Rectangle Grid.Column="2" Tag="{Binding Path=Index}" MouseLeftButtonDown="modifyRule" Visibility="{Binding Path=CheckHide}" Style="{StaticResource content_style_rect}"></Rectangle>
+            <Rectangle Grid.Column="2" Tag="{Binding Path=Index}" MouseLeftButtonDown="changeRuleEnable" Visibility="{Binding Path=CheckHide}" Style="{StaticResource content_style_rect}"></Rectangle>
             <Canvas Grid.Column="2" Width="12" Height="12" Visibility="{Binding Path=CheckShow}">
                 <Path Fill="#FFEC8E72" Data="M10.125 1.5l-5.625 5.625-2.625-2.625-1.875 1.875 4.5 4.5 7.5-7.5z" />
             </Canvas>
