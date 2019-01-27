@@ -180,4 +180,4 @@ FiddlerApplication.BeforeRequest += delegate (Session session)
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/002.png "重置规则")
 6、浏览器访问www.example.com  
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/003.png "浏览器访问")
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/004.png "映射截图")
+![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/004.png "映射结果")
