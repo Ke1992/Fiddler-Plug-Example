@@ -18,6 +18,8 @@ namespace _007_Host_Mapping
 
         public void OnLoad()
         {
+            //初始化文件夹
+            DataTool.initFolder();
             //初始化配置数据
             mainData = DataTool.initConfigData();
             //新建UI对象
