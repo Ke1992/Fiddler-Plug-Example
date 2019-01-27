@@ -138,4 +138,4 @@ backupConfigFile();
 ![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/008%20Other/002.png "说明弹框")
 ## 五、Release版
 切换打包模式为Release，然后重新生成
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/008%20Other/001.png "Release")
+![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/008%20Other/003.png "Release")
