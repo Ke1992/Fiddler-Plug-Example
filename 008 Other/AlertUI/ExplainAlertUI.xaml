@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="_008_Other.AlertUI.ExplainAlertUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_008_Other.AlertUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="700">
+
+    <!--#region 样式、模板资源 -->
+    <UserControl.Resources>
+        <ResourceDictionary Source="../GlobalStyle.xaml"></ResourceDictionary>
+    </UserControl.Resources>
+    <!--#endregion-->
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Background="White">
+        <StackPanel Margin="10,0">
+            <StackPanel x:Name="host">
+                <Label HorizontalContentAlignment="Center" Margin="0,10">HOST映射说明</Label>
+                <TextBlock Style="{StaticResource alert_style_explain}">1、IP字段：填写映射机器的IP地址即可</TextBlock>
+                <TextBlock Style="{StaticResource alert_style_explain}">2、端口字段：非必填，填写则替换为指定端口号，为空则使用请求本身的端口号</TextBlock>
+                <TextBlock Style="{StaticResource alert_style_explain}">
+                3、URL字段：<LineBreak/>
+                <Label xml:space="preserve" Style="{StaticResource alert_style_explain_label}">    (1)、不局限于域名，以映射https://www.example.com/test/index.html为例</Label><LineBreak/>
+                <Label xml:space="preserve" Style="{StaticResource alert_style_explain_label}">    (2)、可以指定具体的Path，如：www.example.com/test</Label><LineBreak/>
+                <Label xml:space="preserve" Style="{StaticResource alert_style_explain_label}">    (3)、可以是URL的任意部分，如：com/test/i</Label><LineBreak/>
+                <Label xml:space="preserve" Style="{StaticResource alert_style_explain_label}">    (4)、支持正则表达式，如：\S*.example.com</Label>
+                </TextBlock>
+                <TextBlock Style="{StaticResource alert_style_explain}">4、配置示例：</TextBlock>
+                <Image Source="../Resources/ExplainImages/001.png" Width="625"></Image>
+                <TextBlock Style="{StaticResource alert_style_explain}">5、映射结果示例：</TextBlock>
+                <Image Source="../Resources/ExplainImages/002.png" Width="625"></Image>
+            </StackPanel>
+            <Label Height="20"></Label>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
