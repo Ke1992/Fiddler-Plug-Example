@@ -63,7 +63,6 @@
     <Compile Include="Container.xaml.cs">
       <DependentUpon>Container.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FiddlerTool.cs" />
     <Compile Include="GlobalEvent.cs" />
     <Compile Include="HostModel.cs" />
     <Compile Include="Main.cs">
@@ -77,6 +76,7 @@
     </Compile>
     <Compile Include="Tools\AlertTool.cs" />
     <Compile Include="Tools\DataTool.cs" />
+    <Compile Include="Tools\FiddlerTool.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

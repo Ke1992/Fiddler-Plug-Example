@@ -1,13 +1,8 @@
 ﻿using Fiddler;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
-namespace _007_Host_Mapping
+namespace _007_Host_Mapping.Tools
 {
     class FiddlerTool
     {
