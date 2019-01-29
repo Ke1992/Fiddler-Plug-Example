@@ -1,5 +1,6 @@
 # Fiddler插件开发笔记
 ### 预览
+![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/preview.gif "预览")
 ### 目录
 * [001 Hello World](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/001%20Hello%20World.md)  
 * [002 全局样式](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/002%20Global%20Style.md)  
@@ -10,3 +11,9 @@
 * [007 HOST映射](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/007%20Host%20Mapping.md)  
 * [008 其他](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/008%20Other.md)  
 ### 其他
+#### Fiddler开启调试模式
+在Fiddler的控制台中分别键入以下代码：
+```
+prefs set fiddler.debug.extensions.showerrors True
+prefs set fiddler.debug.extensions.verbose True
+```
