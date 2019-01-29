@@ -10,6 +10,7 @@
 * [006 HOST事件](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/006%20Host%20Event.md)  
 * [007 HOST映射](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/007%20Host%20Mapping.md)  
 * [008 其他](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/008%20Other.md)  
+* [009 可执行文件](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/009%20Executable%20File.md)  
 ### 其他
 #### Fiddler开启调试模式
 在Fiddler的控制台中分别键入以下代码：
