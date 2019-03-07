@@ -94,4 +94,4 @@ ${If} $0 == ""
 ${EndIf}
 ```
 5、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/003.png "异常提示")
+![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/004.png "异常提示")
