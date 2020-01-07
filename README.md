@@ -18,3 +18,4 @@
 prefs set fiddler.debug.extensions.showerrors True
 prefs set fiddler.debug.extensions.verbose True
 ```
+#### [Fiddler-FPlug](https://github.com/Ke1992/Fiddler-FPlug)
