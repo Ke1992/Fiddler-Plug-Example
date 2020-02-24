@@ -28,7 +28,7 @@ public class Main : IFiddlerExtension
     {}
 }
 ```
-3、项目中添加System.Windows.Forms引用，接着在Main加入using System.Windows.Forms，然后Main继承UserControl类
+3、项目中添加System.Windows.Forms引用，接着在Main加入using System.Windows.Forms，然后Main继承UserControl类  
 4、在OnLoad中加入以下代码
 ```
 //新建一个Fiddler插件的page
