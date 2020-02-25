@@ -74,7 +74,7 @@ Main类的addHostRule方法增加写入文件逻辑
 DataTool.writeConfigToFile();
 ```
 7、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/001.png "初始化")
+![初始化](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/001.png "初始化")
 ## 二、Host映射
 1、在Tools文件夹中新增FiddlerTool类，同时新增私有静态方法getValidRulesByType、getPathFromSession
 ```
@@ -177,7 +177,7 @@ FiddlerApplication.BeforeRequest += delegate (Session session)
 };
 ```
 5、打包插件，然后起一个简单的Node服务，端口设置为3333，并重新设置插件规则  
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/002.png "重置规则")
+![重置规则](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/002.png "重置规则")
 6、浏览器访问www.example.com  
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/003.png "浏览器访问")
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/004.png "映射结果")
+![浏览器访问](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/003.png "浏览器访问")
+![映射结果](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/007%20Host%20Mapping/004.png "映射结果")

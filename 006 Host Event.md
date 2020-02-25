@@ -33,7 +33,7 @@ private void changeRuleEnable(object sender, MouseButtonEventArgs e)
 <Rectangle Grid.Column="2" Tag="{Binding Path=Index}" MouseLeftButtonDown="changeRuleEnable" Visibility="{Binding Path=CheckShow}" Style="{StaticResource content_style_rect_check}"></Rectangle>
 ```
 5、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/001.png "禁止/生效")
+![禁止/生效](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/001.png "禁止/生效")
 ## 二、双击修改
 1、HostAlertUI类的构造函数增加index参数，并设置默认值为-1  
 2、HostAlertUI类添加_index属性，并在构造函数中初始化
@@ -100,13 +100,13 @@ private void modifyRule(object sender, MouseButtonEventArgs e)
 <Label Grid.Column="1" Tag="{Binding Path=Index}" MouseDoubleClick="modifyRule" Content="{Binding Path=TipsAndUrl}" Template="{StaticResource content_text}"></Label>
 ```
 9、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/002.png "修改弹框")
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/003.png "修改结果")
+![修改弹框](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/002.png "修改弹框")
+![修改结果](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/003.png "修改结果")
 ## 三、菜单
 1、项目右键选择属性，切换到资源Tab，点击创建资源文件，创建完成以后，切换为图像资源，然后点击添加资源，选择添加现有文件，导入modify、delete、up、down四个Icon
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/004.png "添加资源")
+![添加资源](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/004.png "添加资源")
 2、选择四个新增的Icon图片，修改复制到输出目录属性为始终复制，修改生成操作属性为Resource
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/005.png "修改属性")  
+![修改属性](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/005.png "修改属性")  
 3、在GlobalStyle中新增menu_rule定义
 ```
 <!-- Rule菜单 -->
@@ -140,7 +140,7 @@ private void modifyRule(object sender, MouseButtonEventArgs e)
 <Label Grid.Column="1" Tag="{Binding Path=Index}" MouseDoubleClick="modifyRule" Content="{Binding Path=TipsAndUrl}" ContextMenu="{StaticResource menu_rule}" Template="{StaticResource content_text}"></Label>
 ```
 5、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/006.png "规则菜单")
+![规则菜单](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/006%20Host%20Event/006.png "规则菜单")
 ## 四、菜单--修改
 1、GlobalEvent类增加私有方法handleRuleMenuClick
 ```

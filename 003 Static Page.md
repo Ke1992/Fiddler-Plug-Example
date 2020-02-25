@@ -6,7 +6,7 @@
 1、访问图标字体网站：https://icomoon.io/app/#/select  
 2、选择需要的图标，然后选择Generate SVG & More按钮  
 3、点击Preferences按钮，然后选择性修改图标尺寸，同时选择生成XAML格式，最后点击Download进行下载  
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/001.png "配置面板")
+![配置面板](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/001.png "配置面板")
 4、将zip压缩包进行解压，打开XAML文件夹，编辑对应icon的wxml文件，拷贝其中的整个Canvas对象代码，其中修改Path的Fill可以修改图标颜色
 ## 二、布局
 最外层使用Grid面板，来实现Top - Content布局；其中Content层再内嵌ScrollViewer控件来实现滚动界面
@@ -40,7 +40,7 @@
 </ScrollViewer>
 ```
 ### 4、结果预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/002.png "Content区域")
+![Content区域](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/002.png "Content区域")
 ## 三、列表区域
 ### 1、容器布局
 列表内容主要包含IP、Url和选中框，因此分为3列，其中选中框宽度固定为40，IP和Url列分别占剩余的30%和70%宽度
@@ -64,4 +64,4 @@
 <Rectangle Grid.Column="2" Visibility="Collapsed" Style="{StaticResource content_style_rect_check}"></Rectangle>
 ```
 ### 3、结果预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/003.png "列表区域")
+![列表区域](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/003%20Static%20Page/003.png "列表区域")

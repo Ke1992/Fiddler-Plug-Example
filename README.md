@@ -1,6 +1,6 @@
 # Fiddler插件开发笔记
 ### 预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/preview.gif "预览")
+![预览](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/preview.gif "预览")
 ### 目录
 * [001 Hello World](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/001%20Hello%20World.md)  
 * [002 全局样式](https://github.com/Ke1992/Fiddler-Plug-Example/blob/master/002%20Global%20Style.md)  

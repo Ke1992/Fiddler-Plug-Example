@@ -3,7 +3,7 @@
 一般项目肯定存在需要复用的样式和模板，在WPF中可以使用资源字典来实现公共样式的编写，然后在页面中引入资源字典即可实现样式继承
 ### 1、新建字典
 首先添加System.Xaml引用，接着新建一个WPF，命名为GlobalStyle.xaml，然后手动删除掉GlobalStyle.xaml.cs，将GlobalStyle.xaml重新编写为资源字典文件格式，接着实现一个确定按钮样式
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/002%20Global%20Style/001.png "新建字典")
+![新建字典](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/002%20Global%20Style/001.png "新建字典")
 ```
 <ResourceDictionary  x:Class="_002_Global_Style.GlobalStyle"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -41,7 +41,7 @@
 </StackPanel>
 ```
 ### 3、预览结果
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/002%20Global%20Style/002.png "预览")
+![预览](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/002%20Global%20Style/002.png "预览")
 ## 二、关联WPF
 1、在Main.cs文件中，申明静态UI对象属性，同时在OnLoad中初始化
 ```
@@ -63,4 +63,4 @@ element.Dock = DockStyle.Fill;
 page.Controls.Add(element);
 ```
 ## 三、打包调试结果
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/002%20Global%20Style/003.png "结果")
+![结果](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/002%20Global%20Style/003.png "结果")

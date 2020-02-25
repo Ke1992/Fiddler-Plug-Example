@@ -83,7 +83,7 @@ private void showExplainAlertUI(object sender, MouseButtonEventArgs e)
 <Label MouseLeftButtonDown="showExplainAlertUI" Template="{StaticResource top_guide}" HorizontalAlignment="Left"></Label>
 ```
 8、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/001.png "说明弹框")
+![说明弹框](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/001.png "说明弹框")
 ## 二、新增按钮
 1、在AlertUI文件夹中新建一个WPF控件，命名为HostAlertUI.xaml  
 2、在GlobalStyle.xaml中新增相关样式
@@ -250,8 +250,8 @@ private void addHost(object sender, MouseButtonEventArgs e)
 <Label MouseLeftButtonDown="addHost" Style="{StaticResource top_style_operation}">新增</Label>
 ```
 9、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/002.png "新增弹框")
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/003.png "新增结果")
+![新增弹框](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/002.png "新增弹框")
+![新增结果](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/003.png "新增结果")
 ## 三、全禁按钮
 1、Main类增加公有静态方法disabledAllHostFromData
 ```
@@ -282,4 +282,4 @@ private void disabledAllItem(object sender, MouseButtonEventArgs e)
 <Label MouseLeftButtonDown="disabledAllItem" Style="{StaticResource top_style_operation_disable}">全禁</Label>
 ```
 4、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/004.png "全禁结果")
+![全禁结果](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/005%20Global%20Event/004.png "全禁结果")

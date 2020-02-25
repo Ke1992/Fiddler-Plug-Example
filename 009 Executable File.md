@@ -57,12 +57,12 @@ ShowInstDetails show
 ```
 6、生成Exe文件  
 打开NSIS软件，选择Compile NSI scripts，然后将编写好的FiddlerExample.nsi文件拖入编辑器中；或者直接FiddlerExample.nsi右键选择Compile NSI scripts  
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/001.png "Exe打包")
+![exe打包](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/001.png "exe打包")
 7、预览  
 点击编译完成的Test Installer按钮或者直接打开编译好的FiddlerExample.exe文件，然后选择目录，点击Install，执行完成以后，对应目录里面就会增加FiddlerExample.dll、Newtonsoft.Json.dll两个文件
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/002.png "执行Exe")
+![执行exe](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/002.png "执行exe")
 
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/003.png "执行结果")
+![执行结果](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/003.png "执行结果")
 ## 三、增强体验
 1、读取注册表  
 在设置安装路径代码下面增加注册表相关逻辑  
@@ -94,4 +94,4 @@ ${If} $0 == ""
 ${EndIf}
 ```
 5、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/004.png "异常提示")
+![异常提示](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/009%20Executable%20File/004.png "异常提示")

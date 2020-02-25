@@ -22,7 +22,7 @@ ImageSource icon = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(
 window.Icon = icon;
 ```
 5、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/008%20Other/001.png "Icon")
+![Icon](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/008%20Other/001.png "Icon")
 ## 二、按需加载
 1、Main类中将page提取成公有静态属性，并在构造函数中增加初始化相关逻辑
 ```
@@ -135,7 +135,7 @@ backupConfigFile();
 <Image Source="../Resources/ExplainImages/002.png" Width="625"></Image>
 ```
 5、打包预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/008%20Other/002.png "说明弹框")
+![说明弹框](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/008%20Other/002.png "说明弹框")
 ## 五、Release版
 切换打包模式为Release，然后重新生成
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/008%20Other/003.png "Release")
+![Release](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/008%20Other/003.png "Release")

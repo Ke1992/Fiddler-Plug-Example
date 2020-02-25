@@ -92,7 +92,7 @@ addHostRule("127.0.0.1", "", "www.example.com");
 addHostRule("127.0.0.1", "3366", "www.example.com");
 ```
 5、结果预览
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/004%20Data%20Model/001.png "数据绑定")
+![数据绑定](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/004%20Data%20Model/001.png "数据绑定")
 ## 四、本地存储
 1、新建Tools文件夹，然后在Tools文件夹中新建DataTool类  
 2、本地存储需要写权限，因此我们选择文档文件夹，在DataTool类中定义静态属性path，并使用Environment获取文档文件夹的路径
@@ -183,4 +183,4 @@ DataTool.initFolder();
 DataTool.writeConfigToFile();
 ```
 8、进行编译打包后，将新添加的依赖库Newtonsoft.Json.dll也复制到Fiddler的Scripts文件夹中
-![blockchain](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/004%20Data%20Model/002.png "本地存储")
+![本地存储](https://raw.githubusercontent.com/Ke1992/Fiddler-Plug-Example/master/images/004%20Data%20Model/002.png "本地存储")
